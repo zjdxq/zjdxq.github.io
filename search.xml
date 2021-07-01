@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>常用半导体器件</title>
+      <link href="/2021/06/29/2021-06-29-%E5%B8%B8%E7%94%A8%E5%8D%8A%E5%AF%BC%E4%BD%93%E5%99%A8%E4%BB%B6/"/>
+      <url>/2021/06/29/2021-06-29-%E5%B8%B8%E7%94%A8%E5%8D%8A%E5%AF%BC%E4%BD%93%E5%99%A8%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<h1 id="半导体基础知识"><a href="#半导体基础知识" class="headerlink" title="半导体基础知识"></a>半导体基础知识</h1><p><strong>本征半导体：</strong>纯净的晶体结构的半导体</p><p><strong>载流子：</strong>运载电荷的粒子</p><p><strong>杂质半导体：</strong></p><p><strong>N型半导体：</strong>掺杂+5价原子（P磷），多子为电子</p><p><strong>P型半导体：</strong>掺杂+3价原子（B硼），多子为空穴</p><p><strong>PN结：</strong></p><p><strong>自由电子与空穴：</strong>热激发下，价电子挣脱共价键束缚变为自由电子，留下的位置称为空穴</p><p><strong>复合运动：</strong>自由电子运动中填补空穴，二者同时消失</p><p><strong>扩散运动：</strong>物质因浓度差而产生的运动</p><p><strong>漂移运动：</strong>因电场作用所产生的运动</p><p><strong>PN结的形成：</strong>参与扩散运动和飘移运动的载流子数目相同，达到动态平衡</p><p><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps37.jpg" alt="img" style="zoom:150%;" /> <img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps38.jpg" alt="img"> </p><p><strong>正向导通：</strong>耗尽层变窄，扩散运动加剧，由于外电场，形成扩散电流，导通</p><p><strong>反向截止：</strong>耗尽层变宽，阻值扩散，利于飘移，形成飘移电流（很小），截止</p><p><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps39.jpg" alt="img"> </p><p><strong>PN结结电容：</strong>空间点河区宽窄变化等效电容为势垒电容，扩散运动载流子浓度变                 化等效电容为扩散电容，PN结的等效电容等于二者之和</p><h1 id="半导体二极管"><a href="#半导体二极管" class="headerlink" title="半导体二极管"></a>半导体二极管</h1><p><strong>伏安特性曲线：</strong></p><p><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps40.jpg" alt="img"><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps41.jpg" alt="img"> </p><p><strong>电流方程：</strong><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps42.png" alt="img"></p><p><strong>温度影响：</strong></p><p>T（℃）↑→在电流不变情况下管压降u↓ →反向饱和电流IS↑，U(BR) ↓</p><p>T（℃）↑→正向特性左移，反向特性下移</p><p><strong>主要参数：</strong></p><p><strong>最大整流电流I**<strong>F</strong></strong>:**最大平均值</p><p><strong>最大反向工作电压U**<strong>R</strong></strong>:**最大瞬时值</p><p><strong>反向电流I<strong><strong>R</strong></strong>：</strong>即IS</p><p><strong>最高工作频率f<strong><strong>M</strong></strong>：</strong>因PN结有电容效应</p><h1 id="晶体管"><a href="#晶体管" class="headerlink" title="晶体管"></a>晶体管</h1><p><strong>结构特点：</strong>三级三区两PN结，发射区多子浓度高，基区多子浓度低且薄，集电区             面积大</p><p><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps43.jpg" alt="img"> </p><p><strong>放大条件：</strong>发射结正偏，集电结反偏</p><p><strong>电流分配：</strong>IE=IB+IC</p><p>IE:扩散运动形成</p><p>IB:复合运动形成</p><p>IC:漂移运动形成</p><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps44.jpg" alt="img" style="zoom:150%;" /> <p><strong>直流放大系数：</strong><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps45.png" alt="img">           <strong>交流放大系数：</strong><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps46.png" alt="img"></p><p><strong>穿透电流：</strong> <img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps47.png" alt="img"></p><p><strong>输入特性：</strong><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps48.png" alt="img"></p><p><strong>输出特性：</strong><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps49.png" alt="img"></p><p><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps50.jpg" alt="img"><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps51.jpg" alt="img"> </p><p><strong>工作区域：</strong>饱和区、放大区、截止区(放大状态时，输出回路iC几乎仅仅决定于iB,即可             将输出回路等效为iB控制iC)</p><table><thead><tr><th>状态</th><th><em>u</em>BE</th><th><em>i</em>C</th><th><em>u</em>CE</th></tr></thead><tbody><tr><td>截止</td><td>＜<em>U</em>on</td><td><em>I</em>CEO</td><td><em>V</em>CC</td></tr><tr><td>放大</td><td>≥ <em>U</em>on</td><td><em>βi</em>B</td><td>≥ <em>u</em>BE</td></tr><tr><td>饱和</td><td>≥ <em>U</em>on</td><td>＜<em>βi</em>B</td><td>≤ <em>u</em>BE</td></tr></tbody></table><p><strong>温度影响：</strong><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps52.png" alt="img"></p><p><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps53.jpg" alt="img"> </p><p><strong>主要参数：</strong></p><p><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/wps54.jpg" alt="img"> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 半导体 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 半导体 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>C语言学习笔记</title>
       <link href="/2021/05/28/2021-05-28-C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
       <url>/2021/05/28/2021-05-28-C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
