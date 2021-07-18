@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+<script src='https://unpkg.com/valine/dist/Valine.min.js'></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css" integrity="sha256-2H3fkXt6FEmrReK448mDVGKb3WW2ZZw35gI7vqHOE4Y=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","version":"8.6.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
+<meta name="description" content="晶体结构晶体结构：基元在空间周期性重复排列就形成晶体结构,具有周期性和对称性。晶体结构&#x3D;基元+空间点阵  基元：组成晶体的最小结构单元，可以是单个原子或是原子基团。 阵点&#x2F;格点：将基元抽象为点（ 保证取同一个位置），基元的代表点。 空间点阵&#x2F;布拉菲点阵：阵点&#x2F;格点排列的总体（所有阵点均为严格等同体）。 空间格子&#x2F;布拉菲格子：将阵点&#x2F;格点用直线连接起来构成，格点构成的网格。 晶格：原子构成的网格。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="固体物理">
+<meta property="og:url" content="http://example.com/2021/07/19/2021-07-15-%E5%9B%BA%E4%BD%93%E7%89%A9%E7%90%86/index.html">
+<meta property="og:site_name" content="ZPLUSPLUS">
+<meta property="og:description" content="晶体结构晶体结构：基元在空间周期性重复排列就形成晶体结构,具有周期性和对称性。晶体结构&#x3D;基元+空间点阵  基元：组成晶体的最小结构单元，可以是单个原子或是原子基团。 阵点&#x2F;格点：将基元抽象为点（ 保证取同一个位置），基元的代表点。 空间点阵&#x2F;布拉菲点阵：阵点&#x2F;格点排列的总体（所有阵点均为严格等同体）。 空间格子&#x2F;布拉菲格子：将阵点&#x2F;格点用直线连接起来构成，格点构成的网格。 晶格：原子构成的网格。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/image-20210716194328548.png">
+<meta property="og:image" content="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/image-20210717105922720.png">
+<meta property="og:image" content="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/image-20210717132105638.png">
+<meta property="og:image" content="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/image-20210717133404650.png">
+<meta property="og:image" content="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/image-20210717141245180.png">
+<meta property="og:image" content="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/image-20210717140946658.png">
+<meta property="article:published_time" content="2021-07-18T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-07-18T16:19:31.292Z">
+<meta property="article:author" content="Zplusplus">
+<meta property="article:tag" content="固体物理">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/image-20210716194328548.png">
+
+
+<link rel="canonical" href="http://example.com/2021/07/19/2021-07-15-%E5%9B%BA%E4%BD%93%E7%89%A9%E7%90%86/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-cn","comments":true,"permalink":"http://example.com/2021/07/19/2021-07-15-%E5%9B%BA%E4%BD%93%E7%89%A9%E7%90%86/","path":"2021/07/19/2021-07-15-固体物理/","title":"固体物理"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>固体物理 | ZPLUSPLUS</title>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">ZPLUSPLUS</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Z++的博客</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="https://zplusplus.cn/" rel="noopener" target="_blank">Home</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%99%B6%E4%BD%93%E7%BB%93%E6%9E%84"><span class="nav-number">1.</span> <span class="nav-text">晶体结构</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-overview">
+            <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Zplusplus</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">categories</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">tags</span>
+      </div>
+  </nav>
+</div>
+
+
+
+          </div>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="Back to top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-cn">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/19/2021-07-15-%E5%9B%BA%E4%BD%93%E7%89%A9%E7%90%86/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Zplusplus">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ZPLUSPLUS">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          固体物理
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2021-07-19 00:00:00 / Modified: 00:19:31" itemprop="dateCreated datePublished" datetime="2021-07-19T00:00:00+08:00">2021-07-19</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%8D%8A%E5%AF%BC%E4%BD%93/" itemprop="url" rel="index"><span itemprop="name">半导体</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h2 id="晶体结构"><a href="#晶体结构" class="headerlink" title="晶体结构"></a>晶体结构</h2><p><strong>晶体结构：</strong><mark>基元</mark>在空间周期性<mark>重复</mark>排列就形成晶体结构,具有周期性和对称性。<mark>晶体结构=基元+空间点阵</mark></p>
+<p><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/image-20210716194328548.png" alt="image-20210716194328548"></p>
+<p><strong>基元：</strong>组成晶体的最小结构单元，可以是单个原子或是原子基团。</p>
+<p><strong>阵点/格点：</strong>将基元抽象为点（ 保证取同一个位置），基元的代表点。</p>
+<p><strong>空间点阵/布拉菲点阵：</strong>阵点/格点排列的总体（所有阵点均为严格等同体）。</p>
+<p><strong>空间格子/布拉菲格子：</strong>将阵点/格点用直线连接起来构成，格点构成的网格。</p>
+<p><strong>晶格：</strong>原子构成的网格。</p>
+<p><strong>简单晶格/单式晶格/布拉菲晶格：</strong>基元只包含一种原子，每个原子周围的情况完全相同，这种原子组成的网格。</p>
+<p><strong>复式晶格：</strong>基元包含了两个或两个以上的原子，同种原则各构成和格点相同的网络，称为<mark>子晶格</mark>，它们相对位移而成复式晶格。</p>
+<p><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/image-20210717105922720.png" alt="image-20210717105922720"></p>
+<p><strong>初基原胞/初基晶胞/固体物理学原胞：</strong>一个晶格最小的周期单元，体积最小的晶胞。（<mark>只包含一个格点</mark>）</p>
+<hr>
+<p>若以某个格点为原点O，则总可以沿三个非共面的方向找到临近的三个格点（二维为2个）A、B、C,沿此3个方向做矢量a<sub>1</sub>、a<sub>2</sub>、a<sub>3</sub>,所组成的平行六面体周期性平移可填满全部空间,初基原胞的<mark>体积为：a<sub>1</sub>.(a<sub>2</sub>.a<sub>3</sub>)</mark></p>
+<hr>
+<p><strong>初基原胞：</strong>上述描述中的平行六面体。</p>
+<p><strong>基矢：</strong>上述描述中的矢量a<sub>1</sub>、a<sub>2</sub>、a<sub>3</sub>。布拉菲格子的基矢选定后,其他任一格点的位矢为:R<sub>n</sub>=n<sub>1</sub>a<sub>1</sub>+n<sub>2</sub>a<sub>2</sub>+n<sub>3</sub>a<sub>3</sub></p>
+<hr>
+<p>初基原胞能反应晶体的周期性，但有时无法兼顾对称性，可选取体积是初基原胞整数倍的更大单元作为原胞。</p>
+<p><strong>晶胞/惯用原胞：</strong>上述描述中的原胞（反应周期性兼对称性的尽可能小的重复单元）。</p>
+<hr>
+<p>威格纳-赛兹方法可既显示点阵的对称性，又选出最小的重复单元（一个格点的体积，<mark>初基原胞的体积</mark>），即选取一个格点为原点作原点与其他临近格点连线的中垂线（或中垂面），由这些中垂线（或中垂面）所围成的凸多面体</p>
+<hr>
+<p><strong>威格纳-赛兹原胞/W-S原胞/对称原胞：</strong>上述描述中的凸多面体。</p>
+<p><strong>晶格的基本类型：</strong></p>
+<ul>
+<li><p><strong>二维晶格</strong>（5种类型，另外一种为斜方晶格，一般的（无一下特征）晶格</p>
+<p><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/image-20210717132105638.png" alt="image-20210717132105638"></p>
+</li>
+<li><p><strong>三维晶格</strong>（为方便，按照7中惯用原胞将14种晶格划分为7个晶系） </p>
+</li>
+</ul>
+<p><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/image-20210717133404650.png" alt="image-20210717133404650"></p>
+<p><strong>立方晶格的特征参数</strong></p>
+<img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/image-20210717141245180.png" alt="image-20210717141245180" style="zoom: 67%;" />
+
+<p><strong>晶系之间演变</strong></p>
+<p><img src="https://piczplusplus-1306060881.cos.ap-guangzhou.myqcloud.com/2021/07/image-20210717140946658.png" alt="image-20210717140946658"></p>
+<p><strong>原子半径r：</strong>原胞中相距最近的两个原子之间距离的一半。</p>
+<p><strong>配位数CN：</strong>晶体中任一原子最近邻的原子数目，越大越紧密。</p>
+<p><strong>致密度η：</strong>晶体中原子所占总体积与晶体总体积之比。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E5%9B%BA%E4%BD%93%E7%89%A9%E7%90%86/" rel="tag"># 固体物理</a>
+          </div>
+
+            <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'v8VjfaWMce9l6jzvtx2dJ9an-gzGzoHsz',
+            appKey: '0eyIRMr3qeO6dOnj1S1nw1pV'
+        })
+    </script>
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/07/12/2021-07-12-%E5%A4%B1%E6%95%88%E6%A8%A1%E5%BC%8F%E5%8F%8A%E6%9C%BA%E7%90%86/" rel="prev" title="失效模式及机理">
+                  <i class="fa fa-chevron-left"></i> 失效模式及机理
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Zplusplus</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
