@@ -2883,4 +2883,16 @@ D-->IGBT</pre>
         <tag>半导体</tag>
       </tags>
   </entry>
+  <entry>
+    <title>目录</title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[
+]]></content>
+  </entry>
+  <entry>
+    <title>标签</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[
+]]></content>
+  </entry>
 </search>
